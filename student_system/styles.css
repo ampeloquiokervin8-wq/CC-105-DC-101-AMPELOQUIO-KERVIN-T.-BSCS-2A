@@ -1,0 +1,107 @@
+
+/* --- General Page Style --- */
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* --- Table Style --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* --- Links (Add / Edit / Delete buttons) --- */
+
+
+a[href*="edit_student"] {
+    background: #2196F3;
+    color: white;
+}
+
+a[href*="delete_student"] {
+    background: #f44336;
+    color: white;
+}
+
+/* --- Forms --- */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a {
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+/* --- Navigation Buttons (Course List, Add Course, Enroll Student, Enrollment List) --- */
+a.nav-btn {
+    background: green !important;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a.nav-btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
